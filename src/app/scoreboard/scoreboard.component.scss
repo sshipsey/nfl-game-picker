@@ -1,0 +1,23 @@
+.scoreboardContainer,
+:host {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  background-color: #222222;
+  color: white;
+}
+
+.division {
+  width: 45%;
+  font-weight: bold;
+}
+
+.title {
+  width: 100%;
+  text-decoration: underline;
+}
+.teams {
+  border: 1px solid black;
+}

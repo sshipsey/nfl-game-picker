@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #cccccc;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  overflow-y: hidden;
+}

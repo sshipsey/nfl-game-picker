@@ -1,0 +1,17 @@
+.matchupContainer,
+:host {
+  display: flex;
+  flex: 1;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 40%;
+  transition: 0.25s ease-out;
+}
+
+.right {
+  right: 100%;
+  transition-delay: 0.1s;
+}

@@ -1,0 +1,83 @@
+<div class="scoreboardContainer">
+  <div class="title">Standings</div>
+
+  <div class="division">
+    AFC North
+    <div class="teams">
+      <app-scoreboard-team
+        *ngFor="let team of afcn"
+        [team]="team"
+      ></app-scoreboard-team>
+    </div>
+  </div>
+
+  <div class="division">
+    AFC South
+    <div class="teams">
+      <app-scoreboard-team
+        *ngFor="let team of afcs"
+        [team]="team"
+      ></app-scoreboard-team>
+    </div>
+  </div>
+
+  <div class="division">
+    AFC East
+    <div class="teams">
+      <app-scoreboard-team
+        *ngFor="let team of afce"
+        [team]="team"
+      ></app-scoreboard-team>
+    </div>
+  </div>
+
+  <div class="division">
+    AFC West
+    <div class="teams">
+      <app-scoreboard-team
+        *ngFor="let team of afcw"
+        [team]="team"
+      ></app-scoreboard-team>
+    </div>
+  </div>
+
+  <div class="division">
+    NFC North
+    <div class="teams">
+      <app-scoreboard-team
+        *ngFor="let team of nfcn"
+        [team]="team"
+      ></app-scoreboard-team>
+    </div>
+  </div>
+
+  <div class="division">
+    NFC South
+    <div class="teams">
+      <app-scoreboard-team
+        *ngFor="let team of nfcs"
+        [team]="team"
+      ></app-scoreboard-team>
+    </div>
+  </div>
+
+  <div class="division">
+    NFC East
+    <div class="teams">
+      <app-scoreboard-team
+        *ngFor="let team of nfce"
+        [team]="team"
+      ></app-scoreboard-team>
+    </div>
+  </div>
+
+  <div class="division">
+    NFC West
+    <div class="teams">
+      <app-scoreboard-team
+        *ngFor="let team of nfcw"
+        [team]="team"
+      ></app-scoreboard-team>
+    </div>
+  </div>
+</div>
